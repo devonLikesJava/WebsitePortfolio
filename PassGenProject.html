@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <style>
+        .image-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+css
+
+    .image-container img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .description {
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .purpose {
+        font-size: 18px;
+        margin: 20px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="image-container">
+        <h2>Input Code</h2>
+        <img src="PassGenCode.PNG" alt="Image">
+        <h2>Output</h2>
+        <img src="PassGenOutput.PNG" alt="Image">
+        <div class="description">
+            <p>The purpose of this program is to generate a random password using letters, numbers, and symbols.</p>
+            
+        </div>
+        <div class="purpose">
+            <p>The way this program works is it defines a generatePassword method that takes a length and three boolean parameters indicating whether to include uppercase letters, numbers, and symbols. It then concatenates the appropriate sets of characters and generates a random password using a SecureRandom object. The main method calls this method with some example values and prints the resulting password to the console.</p>
+        </div>
+    </div>
+</body>
+</html>
